@@ -1,4 +1,4 @@
-# prerender-redis-gzip-cache
+# prerender-redis-cache-gzip
 ============================
 
 Prerender plugin to cache (redis) compressed html, to be used with the prerender node application from https://github.com/prerender/prerender. This was highly influenced by https://github.com/JonathanBennett/prerender-redis-cache
@@ -13,11 +13,11 @@ How to use
 
 In your local prerender project run:
 
-    $ npm install prerender-redis-gzip-cache --save
+    $ npm install prerender-redis-cache-gzip --save
     
 Then in the server.js that initializes the prerender:
 
-    server.use(require('prerender-redis-gzip-cache'));
+    server.use(require('prerender-redis-cache-gzip'));
 
 Configuration
 -------------
